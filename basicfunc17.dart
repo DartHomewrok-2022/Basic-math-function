@@ -1,10 +1,12 @@
-//  Create a function called main.
+import 'dart:math';
 
-//  Return the value null
+// Create a function called func.
+// Create function arguments a.
+// Assign the value pi to the variable "a" and return.
 void main() {
-  print(func());
+  print(func(pi));
 }
 
-func() {
-  return;
+double func(double a) {
+  return a;
 }

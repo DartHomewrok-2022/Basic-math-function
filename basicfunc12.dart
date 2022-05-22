@@ -1,10 +1,11 @@
-//  Create a function called main.
-
-//  Return the value null
+// Create a function called func.
+// Create function argument a.
+// Return the value of a.
+// Round the result to 2 decimal places.
 void main() {
-  print(func());
+  print(func(1.23456789));
 }
 
-func() {
-  return;
+double func(double a) {
+  return double.parse(a.toStringAsFixed(2));
 }

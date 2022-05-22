@@ -1,10 +1,10 @@
-//  Create a function called main.
-
-//  Return the value null
+// Create a function called func.
+// Create function arguments a and b.
+// Returns the sum of a and b.
 void main() {
-  print(func());
+  print(func(10, 3));
 }
 
-func() {
-  return;
+double func(double a, double b) {
+  return a % b;
 }

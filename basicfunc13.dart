@@ -1,10 +1,12 @@
-//  Create a function called main.
+import 'dart:math';
 
-//  Return the value null
+// Create a function called func.
+// Create function argument a.
+// Returns the square root of a number.
 void main() {
-  print(func());
+  print(func(9));
 }
 
-func() {
-  return;
+double func(double a) {
+  return sqrt(a);
 }
