@@ -1,6 +1,6 @@
 // Create a function called func.
 // Create function arguments a and b.
-// Returns the sum of a and b.
+// Returns the modulus of a and b.
 void main() {
   print(func(10, 3));
 }
