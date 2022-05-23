@@ -1,10 +1,10 @@
-// Create a function called func.
+// Create a function called main.
 // Create function arguments a and b.
-// Returns the modulus of a and b.
+// Return the modulus of a and b.
 void main() {
-  print(func(10, 3));
+  print(func(23, 5));
 }
 
-double func(double a, double b) {
+func(a, b) {
   return a % b;
 }

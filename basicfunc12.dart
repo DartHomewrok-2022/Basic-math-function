@@ -3,9 +3,9 @@
 // Return the value of a.
 // Round the result to 2 decimal places.
 void main() {
-  print(func(1.23456789));
+  print(func(5.8539));
 }
 
-double func(double a) {
-  return double.parse(a.toStringAsFixed(2));
+func(double a) {
+  return a.toStringAsFixed(2);
 }

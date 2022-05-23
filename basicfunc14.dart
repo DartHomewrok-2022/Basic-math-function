@@ -1,10 +1,10 @@
-// Create a function called main.
-// Create function arguments a and b.
-// Returns the floor division of a and b.
+//  Create a function called main.
+
+//  Return the value null
 void main() {
-  print(func(10, 3));
+  print(func(11, 2));
 }
 
-int func(double a, double b) {
-  return a ~/ b;
+func(int a, int b) {
+  return (a / b).floor();
 }
