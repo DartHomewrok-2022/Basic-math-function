@@ -7,5 +7,5 @@ void main() {
 }
 
 double func(double a, double b) {
-  return a - b;
+  return (a - b).abs();
 }
