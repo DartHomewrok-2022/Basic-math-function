@@ -9,5 +9,5 @@ void main() {
 
 func(pi) {
   var a = pi;
-  return "a = $a";
+  return a;
 }
