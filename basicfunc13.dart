@@ -3,10 +3,4 @@
 // Returns the square root of a number.
 import 'dart:math';
 
-void main() {
-  print(func(9));
-}
-
-func(int a) {
-  return sqrt(a);
-}
+void main() {}
